@@ -1,0 +1,151 @@
+body {
+    user-select: none;
+}
+
+.el-dialog {
+    background-color: #ecf5ff;
+}
+
+.el-menu {
+    background-color: #4b575c;
+    border-right: 0;
+}
+
+.el-menu-item {
+    color: #fff;
+}
+
+.el-menu-item:hover,
+.el-menu-item:focus {
+    background-color: #3dd9a6;
+}
+
+.el-submenu__title {
+    color: #fff;
+    &:hover {
+        background-color: #2a93d4;
+    }
+}
+
+.el-submenu.is-active .el-submenu__title {
+    background-color: #468a98;
+}
+
+.toolbar .el-input {
+    width: 30%;
+    float: right;
+}
+
+.swiper-pagination-bullet-active {
+    background: #c20c0c;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.play_slider {
+    .el-slider__runway {
+        height: 4px;
+        cursor: default;
+        background-color: #a2a2a2;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    .el-slider__bar {
+        height: 4px;
+        cursor: default;
+        background-color: #c20c0c;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+    .el-slider__button-wrapper {
+        top: -16px;
+        cursor: default;
+    }
+    .el-slider__button {
+        width: 14px;
+        height: 14px;
+        border: solid 1px #ccc;
+        background-color: #fff;
+        font-size: 28px;
+        line-height: 14px;
+        text-align: center;
+        color: #c20c0c;
+        cursor: default;
+        &:after {
+            display: block;
+            content: "·";
+        }
+        &.hover {
+            transform: scale(1);
+        }
+        &:active {
+            background-color: #dbdada;
+        }
+    }
+    &.vol_slider {
+        .el-slider__button {
+            width: 10px;
+            height: 10px;
+            &:after {
+                display: block;
+                content: "";
+            }
+        }
+    }
+}
+
+.muc_box {
+    footer {
+        .el-col {
+            height: 60px;
+            line-height: 60px;
+        }
+        .el-container {
+            min-height: 505px;
+            .el-aside {
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+.so {
+    .el-input__inner {
+        border-radius: 26px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 300;
+        &:focus {
+            border-color: rgba(0, 0, 0, 0);
+        }
+    }
+    i.el-input__icon {
+        line-height: 30px;
+    }
+}
+
+.el-select .el-input.is-focus .el-input__inner {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.el-table--medium th,
+.el-table--medium td {
+    padding: 4px 0;
+}
+
+.el-table .cell {
+    font-size: 12px;
+}
